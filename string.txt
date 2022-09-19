@@ -1,0 +1,27 @@
+/*------String
+Une chaîne JavaScript est composée de zéro ou plusieurs caractères écrits entre guillemets.
+
+Vous pouvez utiliser des guillemets simples ou doubles :
+
+let carName1 = "Volvo XC60";  // Double quotes
+let carName2 = 'Volvo XC60';  // Single quotes
+
+/***-Pour trouver la longueur d'une chaîne, utilisez la lengthpropriété intégrée :
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = text.length;
+console.log(length)---> 26
+
+let text = 'It\'s alright.';console.log(text)
+
+
+/*---------------------Concaténation CHAINES
+​
+// console.log('Mon nom est ' + nom + ' et je suis ' + âge);
+​
+// // Modèle littéral (utilisez celui-ci !)
+// console.log(`Mon nom est ${name} et je suis ${2+3}`);
+​
+// // // ************ Caractères spéciaux (\, \', \n, \\)
+// console.log('je m'appelle Foulan')
+
+

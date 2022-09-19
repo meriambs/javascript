@@ -1,0 +1,39 @@
+Console Web
+
+Une console Web est un outil principalement utilisé pour consigner des informations associées à une page Web telles que : 
+requêtes réseau, JavaScript, erreurs de sécurité, avertissements, CSS, etc. Elle nous permet d'interagir avec une page Web en 
+exécutant une expression JavaScript dans le contenu de la page. 
+
+/**************************console.log()
+
+Principalement utilisé pour enregistrer (imprimer) la sortie sur la console. Nous pouvons mettre n'importe quel type dans le log(), 
+que ce soit une chaîne, un tableau, un objet, un booléen, etc. 
+
+ console.log('abc');----> 'abc'
+console.log(1);---> 1
+console.log(true);---> true 
+
+/----bonne pratique : 
+si vous avez une variable ou une chose a consoler , c'est mieux de mettre  la variable , et un message en type string pour marquer votre varibale 
+NB: il faut utiliser des termes logiques et ayant un sens . 
+exmeple var test = 25 , si je veux faire la console.log de cette variable voici comment je devrais ecrire --> console.log('variable test',test) ; en d'autres termes : 
+console.log('message',nom de variable)
+
+
+
+
+/**************************-----console.error()
+
+Cette méthode est utilisée pour consigner le message d'erreur dans la console. Utile pour tester le code. Par défaut, le message d'erreur sera surligné en rouge.
+
+
+// console.error() method
+console.error('This is a simple error');
+
+
+/**********************************-----console.warn()
+
+Utilisé pour consigner un message d'avertissement dans la console. Par défaut, le message d'avertissement sera surligné en jaune. 
+
+// console.warn() method
+console.warn('This is a warning.');

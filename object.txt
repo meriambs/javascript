@@ -1,0 +1,70 @@
+//---------------------------------------------------
+
+// // ************ OBJECT LITERALS
+// const person = {
+//   firstName: 'Adolf',
+//   age: 30,
+//   hobbies: ['music', 'movies', 'sports'],
+//   address: {
+//     street: '50 Main st',
+//     city: 'Boston',
+//     state: 'MA'
+//   }
+// };
+​
+// // Get single value (obj.key)
+​
+// // Add property
+// person.email = 'jdoe@gmail.com';
+// person.hobbies.push('singing');
+// console.log(person);
+​
+// console.log(person)
+​
+
+// // ************ /!\ Array of objects
+// const users = [
+//   {
+//     name: 'person',
+//     age: 23
+//   },
+//   {
+//     name: 'person 2',
+//     age: 31
+//   },
+//   {
+//     name: 'person 3',
+//     age: 155
+//   }
+// ];
+​
+
+//-----------------------------------------------------------
+
+
+// // //*************** CONST MUTABILITY
+​
+// const person = {
+//   name: 'foulan',
+//   age:27,
+//   adresse:'tunis'}
+​
+// // person = {name: 'ali'}
+​
+// person.name = 'mohamed'
+​
+// delete person.age
+​
+// // // // Add property
+//  person.email = 'jdoe@gmail.com';
+​
+// console.log(person)
+​
+// let numbers = [1,2,3]
+​
+// // numbers = [2,3]
+​
+// numbers[1] = 'hello'
+​
+// console.log(numbers)
+​

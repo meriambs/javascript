@@ -1,0 +1,82 @@
+// // ******* LOOPS
+​
+// // For
+// for (let i = 0; i <= 10; i++) {
+//   console.log(`For Loop Number: ${i}`);
+// }
+​
+// // While
+// let i = 0;
+// while (i <= 10) {
+//   console.log(`While Loop Number: ${i}`);
+//   i++;
+// }
+​
+// // ******************* Loop Through Arrays
+// const fruits = ['apples', 'oranges', 'pears', 'grapes'];
+​
+// // For Loop
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(` Fruit ${i + 1}: ${fruits[i]}`);
+// }
+​
+
+// Simple If/Else Statement
+const x = 30;
+// if (x === 10) {
+//   console.log('x is 10');
+// } else if (x > 10) {
+//   console.log('x is greater than 10');
+// } else {
+//   console.log('x is less than 10');
+// }
+// // Switch (/!\break)
+let color = 'red';
+// switch (color) {
+//   case 'red':
+//     console.log('color is red');
+//     break;
+//   case 'blue':
+//     console.log('color is blue');
+//     break;
+//   default:
+//     console.log('color is neither red nor blue');
+// }
+
+// // ****************** FUNCTIONS *********************** //
+
+// function greet(x = 3) {
+//   return `Hello ${x}`;
+// }
+// console.log(greet('a  aa'));
+// // ARROW FUNCTIONS
+// const greet = name => {
+//   console.log(`Hello ${name}`);
+// };
+// greet('adolf');
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+
+// // For...of Loop
+// for (let fruit of fruits) {
+//   console.log(fruit);
+// }
+​
+// // For...in Loop
+// const person = {
+//   id: 3,
+//   name: "Mohammed",
+//   age: 21,
+//   email: "md@gmail.com"
+// };
+​for (let key in person){
+  console.log(`${key}:${person[key]} `)
+}
+
+

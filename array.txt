@@ -1,0 +1,38 @@
+// // ************ ARRAYS - Store multiple values in a variable
+// let numbers = [1, 2, 3, 4, 5];
+// let fruits = ['apples', 'oranges', 'pears', 'grapes'];
+// let hobbies = ["sleep", 33, true];
+// console.log(numbers, fruits, hobbies);
+
+
+// // ************ MÉTHODES ET PROPRIÉTÉS DES TABLEAUX
+​
+// const fruits = ['pommes', 'oranges', 'poires', 'raisins'] ;
+// console.log(fruits)
+// // Récupère la longueur
+​
+// // Récupère une valeur (!: Les tableaux commencent à 0)
+// console.log(fruits[3]);
+​
+// // Ajouter une valeur en utilisant push()
+// fruits.push('fraises');
+​
+// // Ajouter au début
+// fruits.unshift('mangues');
+​
+// // Supprimer la dernière valeur
+// fruits.pop();
+​
+// // Supprimer la première valeur
+// fruits.shift();
+// console.log(fruits);
+​
+// // // Vérifie si le tableau
+// console.log(Array.isArray(fruits));
+​
+// // // Récupère l'index (position ou -1)
+// console.log(fruits.indexOf('ssss'));
+​
+// console.log(fruits);
+
+

@@ -1,0 +1,106 @@
+/***------------------Les variables sont des conteneurs pour stocker des données (stocker des valeurs de données).
+
+Dans cet exemple, x, y, et z, sont des variables, déclarées avec le varmot clé :
+var x = 5;
+var y = 6;
+var z = x + y;
+console.log('zz,z) -----> 11
+Les règles générales de construction des noms de variables (identificateurs uniques) sont :
+
+Les noms peuvent contenir des lettres, des chiffres, des traits de soulignement et des signes dollar.
+Les noms doivent commencer par une lettre.
+Les noms peuvent également commencer par $ et __
+Les noms sont sensibles à la casse (y et Y sont des variables différentes).
+Les mots réservés (comme les mots clés JavaScript) ne peuvent pas être utilisés comme noms.
+
+/*****---------- L'opérateur d'affectation
+En JavaScript, le signe égal ( =) est un opérateur "d'affectation", et non un opérateur "égal à".
+
+Ceci est différent de l'algèbre. Ce qui suit n'a pas de sens en algèbre :
+
+x = x + 5
+
+dans notre cas nous avons 3 des operateurs , nous avons un seul egale , deux ou 3 , le 1er est celui de l'attribution , les deux autres comparaison . 
+
+
+//*********------   Valeur = indéfini
+Dans les programmes informatiques, les variables sont souvent déclarées sans valeur. La valeur peut être quelque chose qui doit être calculée, ou quelque chose qui sera fourni plus tard, comme une entrée utilisateur.
+
+Une variable déclarée sans valeur aura la valeur undefined.
+---> let carName;
+on peut faire la chose suivante : var carName;
+var carName = "test";
+cela se fait juste avec le VAR pour les autres ( let et const on ne peut donner le mm nom plus d'une fois) 
+
+dan sle cas de let => let test 
+console.log(test)
+ let test = 20
+console.log(test) =
+< ici la console affiche , Uncaught SyntaxError: Identifier 'test' has already been declared
+sdans ce cas , cela va fonctionner :: 
+let test 
+console.log(test)
+  test = 20
+ on a 20 qui s'affiche . 
+ console.log(test) => 20
+ 
+ /*-------------------TYPES DE DONNÉES
+// Chaîne, Nombre, Booléen (6 faux), Null, Non défini, Symbole, Objet
+// null et undefined sont égaux en valeur mais différents en type
+//une variable sans valeur, a la valeur undefined. Le type est également indéfini.
+// Tableaux, Fonctions, Objets
+  PRIMITIVE TYPES
+// String, Number, Boolean, Null, undefined 
+// const name = 'Adolf';
+// const age = 37;
+// const rating = 3.5;
+// const isPerson = true;
+// const x = null;
+// let y;
+// let z; // undefined;
+// console.log(typeof(name))
+// console.log(typeof(a))
+// console.log(typeof(x))
+// console.log(typeof(age))
+// console.log(typeof(moyenne))
+// console.log(typeof(isValue))
+
+
+// // ************ ARITHMETIC OPERATORS
+// + , - , * , / , % , ++ , -- , **
+​
+// console.log(13-2)
+// console.log('3'*'2')
+// console.log(3*'TEXT')
+// console.log('10'/'2')
+// console.log(10%2)
+// console.log(10%3)
+// ** num1 puissance num2
+// console.log('3'**'2')
+console.log(-2**2) => console.log((-2)**2) ou console.log(-(2**2))
+
+
+​
+// console.log(5+3)
+// console.log(5+'3')
+console.log((2 + +'2')) 
+​console.log(typeof(2 + +'2'))
+
+// let y = 5
+// let z = 16
+// console.log(++y)
+// console.log(y)
+// console.log(y++)
+// console.log(y)
+// console.log(y)
+​
+// console.log(z++)
+// console.log(z)
+
+ 
+ 
+
+
+
+
+
